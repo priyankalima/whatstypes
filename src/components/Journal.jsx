@@ -27,7 +27,7 @@ componentDidMount = ()=>{
 
 //getting data or api from the server using axios
   getBlogPost=()=>{
-    axios.get('http://localhost:4000/api')
+    axios.get('/api')
     .then((res)=>{
       const data = res.data;
       this.setState({
