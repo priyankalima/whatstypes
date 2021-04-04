@@ -56,7 +56,7 @@ componentDidMount = ()=>{
        
       //axios data
       axios({
-        url:'http://localhost:4000/api/save',
+        url:'/api/save',
         method:'POST',
         data:payload
       })
