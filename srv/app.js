@@ -31,7 +31,7 @@ if(process.env.NODE_ENV === "production"){
 }
 
 //import routes
-app.use('/api',routes);
+app.use('/',routes);
 
 
 
