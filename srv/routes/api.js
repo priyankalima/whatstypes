@@ -3,7 +3,7 @@ const router = express.Router();
 const BlogPostData = require('../models/db.js');
 
 
-router.get('/',(req,res)=>{
+router.get('/api',(req,res)=>{
     BlogPostData.find({})
     .sort({_id:-1})
     .then((data)=>{
